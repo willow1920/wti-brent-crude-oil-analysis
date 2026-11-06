@@ -58,10 +58,21 @@ The April 20, 2020 observation in this dataset records WTI at -36.98 USD/bbl and
 ## Repository structure
 ```text
 .
-├── 003_oil_price_analysis_final_review.ipynb
-├── wti-daily.csv
-├── brent-daily.csv
-└── README.md
+wti-brent-crude-oil-analysis/
+│
+├── README.md
+├── .gitignore
+├── oil_price_analysis.ipynb
+│
+├── data/
+│   ├── wti-daily.csv
+│   └── brent-daily.csv
+│
+├── reports/
+│   └── WTI_Brent_Project_Report.docx
+│
+└── images/
+    └── dashboard.png
 ```
 
 ## How to run
